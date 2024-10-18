@@ -14,3 +14,11 @@ The function returns `Some true` whenever the parrot is talking at a time
 prohibited by the regulations.
 The special value `None` must be used when the input time is outside the range
 0..23.
+
+
+Before starting the exercise, experiment with utop or [TryOCaml](try.ocamlpro.com) to learn how to use the `option` type:
+```ocaml
+None;;
+Some 3;;
+Some (2+2);;
+```
