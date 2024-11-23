@@ -1,0 +1,1 @@
+let VII_XI_doubles () = (fun a b -> [((a=b)||(a+b=7)||(a+b=11)), a, b]) (Random.int(6)) (Random.int(6));;
