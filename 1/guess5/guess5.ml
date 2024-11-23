@@ -1,0 +1,1 @@
+let guess5 a = if not ((a<1)||(a>5)) then ((fun a b -> [a=b, b]) a (Random.int(6)+1)) else failwith "Unexpected value";;
